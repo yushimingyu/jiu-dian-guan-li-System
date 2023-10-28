@@ -5,11 +5,11 @@
 系统包括酒店前台管理和经理的员工管理两个部分。酒店前台管理主要实现了顾客管理、房间信息查看、退房操作、服务员信息查看、事件查看和日志功能。经理的员工管理主要实现了前台员工和服务员工的新增、开除和修改功能。本课程设计采用了JavaWeb技术，使用了Servlet、JSP、JDBC等技术和工具，基于MVC模式进行了系统的分层设计和实现。本课程设计通过对酒店管理系统的需求分析、可行性分析、系统设计、系统实现、系统测试等阶段的详细论述，展示了系统的功能和特点，验证了系统的可行性和有效性。
 
 **软件版本**
-JDK8
-Eclipse
-Tomcat v8.0 Server at localhost-config
-Javax.servlet-api-3.0.1
-MySQL-connector-java-5.0.4-bin
+JDK8，
+Eclipse，
+Tomcat v8.0 Server at localhost-config，
+Javax.servlet-api-3.0.1，
+MySQL-connector-java-5.0.4-bin，
 Navicat 8.0 Lite MySQL
 
 
