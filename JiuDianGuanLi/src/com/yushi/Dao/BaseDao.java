@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class BaseDao {
-	//´´½¨
+	//åˆ›å»º
 	static {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
@@ -16,15 +16,15 @@ public class BaseDao {
 			e.printStackTrace();
 		}
 	}
-	//µÇÂ¼Êı¾İ¿â
+	//ç™»å½•æ•°æ®åº“
 	public static Connection getConn() throws SQLException{
 		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/jiudianguanli",
-				"root","Yushimingyu.1");
+				"root",);
 		return conn;
 		
 		
 	}
-	//¹Ø±ÕÊı¾İ¿â
+	//å…³é—­æ•°æ®åº“
 	public static void closeAll(Connection conn,Statement stmt,ResultSet rs){
 		if(rs!=null){
 			
